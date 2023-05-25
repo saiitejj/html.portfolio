@@ -1,22 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Angela's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>profile Card</title>
+	<style >
+		.Card
+		{
+			box-shadow: 10px 10px 20px black;
+			font-family: Cassandra;
+
+			max-width: 400px;
+			max-height: 600px;
+			text-align: center;
+			margin: auto;
+		}
+		button{
+			border: none;
+			width: 100%;
+			background-color: black;
+			color: white;
+			padding: 10px;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		img
+		{
+			width: 100%;
+		}
+		h3{
+			color: crimson;
+			font-size: 30px;
+
+		}
+		h1{
+			color: black;
+		}
+		a{
+			margin: auto;
+			font-size: larger ;
+			color: black;
+		}
+	</style>
 </head>
-
 <body>
-  <h1>Angela Yu's Portfolio</h1>
-  <h2>I'm a Web Developer</h2>
-  <hr />
-  <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Contact Me</a>
-</body>
+	<div class="Card">
+		<img src="alluar.jpg" alt="NO Img found" width="20%"></img>
+		<h1>ALLU ARJUN</h1>
+		<h2>ACTOR</h2>
+		<p>INDIAN</p>
 
+		<a href="https://www.facebook.com/AlluArjun/"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.linkedin.com/in/allu-arjun-a836b7116?originalSubdomain=in"><i class="fa fa-linkedin"></i></a>
+		<a href="https://twitter.com/alluarjun#:~:text=Allu%20Arjun%20(%40alluarjun)%20%2F%20Twitter"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com/alluarjunonline/?hl=en"><i class="fa fa-instagram"></i></a>
+		<p><a href="contacts.html"><button >CONTACT</button></a></p>
+		
+	</div>
+</body>
 </html>
